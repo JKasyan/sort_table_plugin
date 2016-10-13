@@ -12,7 +12,7 @@
                 (function (i) {
                     $(th).bind('click', function () {
                         sortListener(i, $this);
-                    });
+                    }).css('cursor', 'pointer');
                 })(x);
             });
         },
